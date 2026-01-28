@@ -1,0 +1,32 @@
+/* structure */
+body { 
+    background-image: url("images/rebaMc.webp");
+}
+
+/* Fonts */
+h1 {
+    color: rgb(227, 166, 227); 
+    text-align: center;
+}
+
+p {
+    color:rgb(43, 202, 226);
+    text-align:  center;
+}
+
+h2 {
+    color:lightcoral
+}
+
+li {
+    color:rgb(237, 137, 180)
+}
+
+tr {   
+    color:burlywood
+}
+
+img {
+    border-style:double;
+}
+
