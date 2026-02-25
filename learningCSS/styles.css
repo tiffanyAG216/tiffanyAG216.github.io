@@ -1,0 +1,49 @@
+#main-content {
+    width: 70%;
+    margin: auto; 
+    background: purple;
+    padding: 15px;
+}
+#da-body {
+   background-image: url("images/cupid.jpg");
+}
+
+button {
+    color :blueviolet;
+    background-color: crimson;
+    border: 2px solid #ffffff;
+}
+
+button:hover{
+     color :coral;
+    background-color:lawngreen;
+    border: 2px solid yellow;
+}
+
+ol{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+li{
+    padding: 0 30px;
+}
+
+#secret{
+    color: red;
+}
+
+.secret-p-man {
+    color:blue;
+}
+
+.ms-m-tuseday {
+    color: orangered;
+
+}
+
+#this-is-bananas {
+    color: yellow
+}

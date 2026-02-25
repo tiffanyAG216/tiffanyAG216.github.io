@@ -1,0 +1,31 @@
+section {
+    background:white;
+    color:darkslateblue;
+    border:5px solid lightpink;
+    padding: 15px;
+    width: 100%;
+    margin: 5px;
+}
+
+/*use these styles on a larger screen eg) laptopor desktop*/
+@media screen and (min-width: 768px) {
+ .columns {
+    display:flex;
+ }
+ body {
+   background-image: url('images/download\ \(1\).webp'); 
+
+ }
+ .one{
+    flex:1;
+ }
+ .two {
+    flex:2;
+ }
+ .three {
+    flex:3;
+ }
+ .four {
+    flex:4;
+ }
+}
