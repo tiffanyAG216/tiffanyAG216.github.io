@@ -1,0 +1,46 @@
+section {
+    background:white;
+    color:darkslateblue;
+    border:5px solid lightpink;
+    margin: 15px;
+    width: 100%;
+}
+#columns {
+    width: 85%;
+    margin: auto; 
+    padding: 20px;
+    height: 250px;
+}
+.divs {
+   border-radius: 25px;
+  padding: 20px;
+  height: 150px;
+}
+.color-one {
+   background:pink;
+}
+.color-two {
+   background:skyblue;
+}
+.color-three {
+   background:coral;
+}
+
+
+@media screen and (min-width: 768px) {
+ .columns {
+    display:flex;
+ }
+ .one{
+    flex:1;
+ }
+ .two {
+    flex:2;
+ }
+ .three {
+    flex:3;
+ }
+ .four {
+    flex:4;
+ }
+}

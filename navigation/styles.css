@@ -1,0 +1,36 @@
+/*structure*/
+div {
+    width:75%;
+    margin:auto;
+    text-align: center;
+}
+
+/*navigation*/
+nav {
+    background-color: crimson;
+}
+/*choosese nav tag to style only when mouse is hovering over it*/
+nav li:hover {
+    background-color: green;
+}
+nav ul {
+    padding-left:0; /*removes indignation*/
+}
+nav li {
+    list-style-type: none; /*removes bullet points*/
+    display: block;
+    padding:10px;
+}
+nav a {
+    text-decoration: none; /*removes underline*/
+}
+
+/*larger screens*/
+@media screen and (min-width:768px) {
+    .columns {
+        display:flex;
+    }
+    .one{
+        flex:1;
+    }
+}
