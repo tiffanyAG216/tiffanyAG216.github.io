@@ -1,19 +1,35 @@
-/*structure*/
-div {
-    width:75%;
-    margin:auto;
-    text-align: center;
+#glee {
+    background-color: rgb(19, 181, 19) ;
+}
+#home {
+    background-color: cadetblue;
+}
+#minds {
+    background-color: crimson;
+}
+#golden {
+    background-color: rgb(179, 148, 179);
+}
+footer {
+    background-color: lch(73.02% 34.65 223.64);
+    border: sloid;
 }
 
-/*navigation*/
+h1 {
+    text-align: center;
+}
+div {
+    width:100%;
+    margin:auto;
+    text-align: center; 
+}
 nav {
-    background-color: crimson;
+    background-color: teal ;
     border: solid;
     border-color: black;
 }
-/*choosese nav tag to style only when mouse is hovering over it*/
 nav li:hover {
-    background-color: green;
+    background-color: rgb(36, 215, 147);
 }
 nav ul {
     padding-left:0; /*removes indignation*/
@@ -26,7 +42,9 @@ nav li {
 nav a {
     text-decoration: none; /*removes underline*/
 }
-
+.columns {
+    width: 100%;
+}
 /*larger screens*/
 @media screen and (min-width:768px) {
     .columns {

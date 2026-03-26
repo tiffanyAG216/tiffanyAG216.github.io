@@ -1,0 +1,43 @@
+div {
+     width:75%;
+    margin:auto;
+    text-align: center;
+}
+nav {
+    background-color: #325fff;
+    border: solid;
+    border-color: black;
+}
+nav li:hover {
+    background-color: rgb(230, 227, 240);
+}
+nav ul {
+    padding-left:0; 
+}
+nav li {
+    list-style-type:none ;
+    display:block;
+    padding: 10px;
+}
+nav a {
+    text-decoration: none; 
+}
+@media screen and (min-width:768px) {
+    .columns {
+        display:flex;
+    }
+    .one{
+        flex:1;
+    }
+}
+footer {
+    background-color: lch(73.02% 34.65 223.64);
+    border: sloid;
+}
+img {
+    width:100%;
+    border: solid;
+}
+main {
+    border: solid;
+}
